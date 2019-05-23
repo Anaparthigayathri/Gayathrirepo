@@ -13,11 +13,11 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Clone</actionName>
+        <actionName>CloneAsChild</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>CloneAsChild</actionName>
+        <actionName>Clone</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -109,6 +109,113 @@
     <fields>
         <fullName>ContactPhone</fullName>
         <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Controlling3__c</fullName>
+        <description>9
+8</description>
+        <externalId>false</externalId>
+        <label>Controlling3</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>controlling2__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>566</fullName>
+                    <default>false</default>
+                    <label>566</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+                <value>
+                    <fullName>8</fullName>
+                    <default>false</default>
+                    <label>8</label>
+                </value>
+                <value>
+                    <fullName>7</fullName>
+                    <default>false</default>
+                    <label>7</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>1</controllingFieldValue>
+                <valueName>1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>5</controllingFieldValue>
+                <valueName>566</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>6</controllingFieldValue>
+                <valueName>4</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>7</controllingFieldValue>
+                <valueName>8</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>8</controllingFieldValue>
+                <valueName>7</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Controlling__c</fullName>
+        <description>test
+name</description>
+        <externalId>false</externalId>
+        <label>Controlling</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>12</fullName>
+                    <default>false</default>
+                    <label>12</label>
+                </value>
+                <value>
+                    <fullName>233</fullName>
+                    <default>false</default>
+                    <label>233</label>
+                </value>
+                <value>
+                    <fullName>test</fullName>
+                    <default>false</default>
+                    <label>test</label>
+                </value>
+                <value>
+                    <fullName>passed</fullName>
+                    <default>false</default>
+                    <label>passed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Description</fullName>
@@ -320,6 +427,71 @@
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>controlling2__c</fullName>
+        <description>7
+8
+9</description>
+        <externalId>false</externalId>
+        <label>controlling2</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Controlling__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                    <label>5</label>
+                </value>
+                <value>
+                    <fullName>6</fullName>
+                    <default>false</default>
+                    <label>6</label>
+                </value>
+                <value>
+                    <fullName>7</fullName>
+                    <default>false</default>
+                    <label>7</label>
+                </value>
+                <value>
+                    <fullName>8</fullName>
+                    <default>false</default>
+                    <label>8</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>1</controllingFieldValue>
+                <valueName>1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>12</controllingFieldValue>
+                <valueName>5</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>233</controllingFieldValue>
+                <valueName>6</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>test</controllingFieldValue>
+                <valueName>7</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>passed</controllingFieldValue>
+                <valueName>8</valueName>
+            </valueSettings>
+        </valueSet>
     </fields>
     <listViews>
         <fullName>AllClosedCases</fullName>
