@@ -64,6 +64,9 @@
         <members>Case.Product__c</members>
         <members>Case.SLAViolation__c</members>
         <members>Case.controlling2__c</members>
+        <members>Case.p1__c</members>
+        <members>Case.p2__c</members>
+        <members>Case.p3__c</members>
         <members>Contact.Languages__c</members>
         <members>Contact.Level__c</members>
         <members>Goal.OrigGoalId__c</members>
