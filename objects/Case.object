@@ -13,11 +13,11 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Clone</actionName>
+        <actionName>CloneAsChild</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>CloneAsChild</actionName>
+        <actionName>Clone</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -320,6 +320,170 @@
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>final1__c</fullName>
+        <externalId>false</externalId>
+        <label>final1</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                    <label>5</label>
+                </value>
+                <value>
+                    <fullName>6</fullName>
+                    <default>false</default>
+                    <label>6</label>
+                </value>
+                <value>
+                    <fullName>09</fullName>
+                    <default>false</default>
+                    <label>09</label>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>1</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>final2__c</fullName>
+        <externalId>false</externalId>
+        <label>final2</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>final1__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Test</fullName>
+                    <default>false</default>
+                    <label>Test</label>
+                </value>
+                <value>
+                    <fullName>fail</fullName>
+                    <default>false</default>
+                    <label>fail</label>
+                </value>
+                <value>
+                    <fullName>true</fullName>
+                    <default>false</default>
+                    <label>true</label>
+                </value>
+                <value>
+                    <fullName>false</fullName>
+                    <default>false</default>
+                    <label>false</label>
+                </value>
+                <value>
+                    <fullName>In progress</fullName>
+                    <default>false</default>
+                    <label>In progress</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>2</controllingFieldValue>
+                <valueName>fail</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>3</controllingFieldValue>
+                <controllingFieldValue>5</controllingFieldValue>
+                <valueName>true</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>4</controllingFieldValue>
+                <valueName>false</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>final3__c</fullName>
+        <externalId>false</externalId>
+        <label>final3</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>final2__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>help</fullName>
+                    <default>false</default>
+                    <label>help</label>
+                </value>
+                <value>
+                    <fullName>fail</fullName>
+                    <default>false</default>
+                    <label>fail</label>
+                </value>
+                <value>
+                    <fullName>pass1</fullName>
+                    <default>false</default>
+                    <label>pass1</label>
+                </value>
+                <value>
+                    <fullName>pass 2</fullName>
+                    <default>false</default>
+                    <label>pass 2</label>
+                </value>
+                <value>
+                    <fullName>pass3</fullName>
+                    <default>false</default>
+                    <label>pass3</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Test</controllingFieldValue>
+                <controllingFieldValue>true</controllingFieldValue>
+                <valueName>help</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>fail</controllingFieldValue>
+                <controllingFieldValue>false</controllingFieldValue>
+                <valueName>fail</valueName>
+            </valueSettings>
+        </valueSet>
     </fields>
     <listViews>
         <fullName>AllClosedCases</fullName>

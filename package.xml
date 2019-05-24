@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>44.0</version>
+    <version>45.0</version>
     <types>
         <members>AppSwitcher</members>
         <members>Salesforce1</members>
@@ -207,6 +207,9 @@
         <members>Case.SuppliedName</members>
         <members>Case.SuppliedPhone</members>
         <members>Case.Type</members>
+        <members>Case.final1__c</members>
+        <members>Case.final2__c</members>
+        <members>Case.final3__c</members>
         <members>CaseContactRole.Role</members>
         <members>ConsumptionRate.ConsumptionScheduleId</members>
         <members>ConsumptionRate.Description</members>
