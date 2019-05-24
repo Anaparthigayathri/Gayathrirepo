@@ -569,6 +569,7 @@
             </valueSetDefinition>
             <valueSettings>
                 <controllingFieldValue>b</controllingFieldValue>
+                <controllingFieldValue>5</controllingFieldValue>
                 <valueName>setmk</valueName>
             </valueSettings>
             <valueSettings>
@@ -576,6 +577,7 @@
                 <controllingFieldValue>3</controllingFieldValue>
                 <controllingFieldValue>4</controllingFieldValue>
                 <controllingFieldValue>5</controllingFieldValue>
+                <controllingFieldValue>6</controllingFieldValue>
                 <valueName>free</valueName>
             </valueSettings>
             <valueSettings>
@@ -623,10 +625,12 @@
             </valueSetDefinition>
             <valueSettings>
                 <controllingFieldValue>setmk</controllingFieldValue>
+                <controllingFieldValue>free</controllingFieldValue>
                 <valueName>gm</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>set</controllingFieldValue>
+                <controllingFieldValue>12</controllingFieldValue>
                 <valueName>kg</valueName>
             </valueSettings>
         </valueSet>
