@@ -210,6 +210,9 @@
         <members>Case.final1__c</members>
         <members>Case.final2__c</members>
         <members>Case.final3__c</members>
+        <members>Case.p11__c</members>
+        <members>Case.p12__c</members>
+        <members>Case.p13__c</members>
         <members>CaseContactRole.Role</members>
         <members>ConsumptionRate.ConsumptionScheduleId</members>
         <members>ConsumptionRate.Description</members>
